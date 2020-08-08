@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        p {
+            text-align: center;
+            color: black;
+            font-size: xx-large;
+            margin-bottom: 5px;
+        }
+    
+
+        .maincontainer {
+            padding: 10px;
+            width: 1200px;
+            margin: 0px auto;
+
+        }
+        .header {
+            height: 60px;
+            border-radius: 3px;
+            background-color: lightgray;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: 40px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+        .banner {
+            width: 1200px;
+            height: 500px;
+            border-radius: 3px;
+            background-color: lightskyblue;
+            font-size: 40px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .section1 {
+            
+            text-align: center;
+            color: black;
+            font-size: x-large;
+            font-weight: bold;
+            padding: 10px;
+            
+
+
+
+        }
+        .pic1 {
+            width: 200px;
+            height: 200px;
+        
+            border-radius: 100px;
+            margin: 20px;
+            background-color: yellow;
+            display: inline-block;
+        }
+        .pic2 {
+            width: 200px;
+            height: 200px;
+            
+            border-radius: 100px;
+            margin: 20px;
+            background-color: yellow;
+            display: inline-block;
+        }
+        .pic3 {
+            width: 200px;
+            height: 200px;
+            
+            border-radius: 100px;
+            margin: 20px;
+            background-color: yellow;
+            display: inline-block;
+        }
+        .pic4 {
+            width: 200px;
+            height: 200px;
+        
+            border-radius: 100px;
+            margin: 20px;
+            background-color: yellow;
+            display: inline-block;
+        }
+        .section2 {
+            text-align: center;
+            color: black;
+            font-size: x-large;
+            font-weight: bold;
+            padding: 10px;
+            margin-bottom: 15px;
+
+        }
+        .section2:after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .leftmain {
+            width: 50%;
+            height: 600px;
+            background-color: darkgray;
+            float: left;
+            font-size: 40px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        
+        }
+        .rightside{
+            width: 48%;
+            height: 600px;
+            float: right;
+            
+            
+            }
+        .article1 {
+            width: 100%;
+            height: 190px;
+            margin-bottom: 10px;
+            background-color: darkseagreen;
+            font-size: 40px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .article2 {
+            width: 100%;
+            height: 190px;
+            margin-bottom: 10px;
+            background-color: darkseagreen;
+            font-size: 40px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .article3 {
+            width: 100%;
+            height: 200px;
+            background-color: darkseagreen;
+            font-size: 40px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .section3 {
+            width: 98%;
+            height: 400px;
+            text-align: center;
+            color: black;
+            font-size: x-large;
+            font-weight: bold;
+            padding: 10px;
+            margin-bottom: 15px;
+
+        }
+        .container1 {
+            width: 20%;
+            height: 380px ;
+            background-color: chartreuse;
+            display: inline-block;
+            margin: 20px;
+        }
+        .footer {
+            height: 60px;
+            border-radius: 3px;
+            background-color: lightgray;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: 40px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        
+
+
+
+        
+    </style>
+
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="header">Header</div>
+        <div class="banner">Banner</div>
+        <p>Section-1</p>
+        <div class="section1">
+            <div class="pic1"></div>
+            <div class="pic2"></div>
+            <div class="pic3"></div>
+            <div class="pic4"></div>
+        </div>
+        <p>Section-2</p>
+        <div class="section2">
+            <div class="leftmain">Main content</div>
+            <div class="rightside">
+                <div class="article1">Article-1</div>
+                <div class="article2">Article-2</div>
+                <div class="article3">Article-3</div>
+            </div>
+            
+        </div>
+        <p>Section-3</p>
+        <div class="section3"> 
+            <div class="container1"></div>
+            <div class="container1"></div>
+            <div class="container1"></div>
+            <div class="container1"></div>
+
+        </div>
+        <div class="footer">Footer</div>
+    </div>
+    
+</body>
+</html>
