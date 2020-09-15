@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Footer</title>
+</head>
+
+
+<style>
+    
+   a{
+       text-decoration: none;
+       color: lightgrey ;
+   }
+   li{
+       list-style: none;
+       padding: 5px;
+   }
+   
+   i{
+       padding-right:5px;
+   }
+  
+   .head{
+       
+       height: 70px;
+       font-size: 35px;
+       width: 100%;
+       text-align: center;
+       
+   }
+   footer{
+       
+       background-color:#606060;
+       color: lightgrey;
+       margin-left:5px ;
+       margin-right: 5px;
+
+   }
+   .sec-1{
+       display: flex;
+   }
+   .about{
+       width: 40%;
+       padding: 20px;
+   }
+   .about p{
+     line-height: 28px;
+   }
+   .Categories{
+       padding: 20px;
+   }
+   .Categories h3{
+       margin-left: 37px;
+   }
+   .Links{
+       padding: 20px;
+
+   }
+   .Links h3{
+       margin-left: 37px;
+   }
+   .Contact{
+       padding: 20px;
+   }
+   .Contact h3{
+       margin-left: 37px;
+   }
+   
+   .sec-2{
+       border-top: 2px solid grey;
+       font-size: 30px;
+       text-align: center;
+       border-bottom: 2px solid grey;
+       margin-left: 17px;
+   }
+   .sec-2 a{
+       background-color: red;
+       border-radius: 50px;
+       font-size: 20px;
+       padding: 10px;
+
+   }
+   .sec-2 a:hover{
+       background-color: lime;
+       color: linen;
+   }
+   .sec-3{
+       justify-content: center;
+       display: flex;
+   }
+  
+   .sec-3 ul li{
+       display:inline-block;
+       justify-content: center;
+       padding: 30px;
+       margin-right: 20px;
+       background-color: grey;
+       border-radius: 50%;
+       
+   }
+   .sec-3 ul li i{
+       color: white;
+       line-height: 22px;
+       text-align: center;
+       
+   }
+
+   
+   .sec-3 ul li:nth-child(1):hover{
+       background-color: darkslateblue;
+   }
+   .sec-3 ul li:nth-child(2):hover{
+       background-color:darkturquoise;
+   }
+   .sec-3 ul li:nth-child(3):hover{
+       background-color:orangered;
+   }
+   .sec-3 ul li:nth-child(4):hover{
+       background-color:dodgerblue;
+   }
+   .sec-3 ul li:nth-child(5):hover{
+       background-color: palevioletred;
+   }
+
+   .sec-4{
+       display: flex;
+       background-color: #080808;
+       padding: 15px;
+       margin-bottom: 5px;
+       justify-content: center;
+    
+      
+   }
+   .sec-4 p{
+       position: relative;
+   }
+   .sec-4 p::after{
+       content: '';
+       display: block;
+       width: 0;
+       height: 2px;
+       position:absolute;
+       left: 0;
+       background-color: greenyellow;
+       transition: all .4s;
+       bottom: -10px;
+
+   }
+   
+   .sec-4 p:hover::after{
+       width: 100%;
+   }
+
+   @media  (max-width: 790px) {
+    .sec-1{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .about{
+       width: 100%;
+       padding: 10px;
+   }
+   .about p{
+     line-height: 28px;
+   }
+   .Categories{
+       padding: 10px;
+   }
+   .Categories h3{
+       margin-left: 37px;
+   }
+   .Links{
+       padding: 10px;
+
+   }
+   .Links h3{
+       margin-left: 37px;
+   }
+   .Contact{
+       padding: 10px;
+   }
+   .Contact h3{
+       margin-left: 37px;
+   }
+     
+   }
+   @media (max-width: 660px)
+   {
+    .sec-1{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .about{
+       width: 100%;
+       padding: 20px;
+   }
+   .about p{
+     line-height: 28px;
+   }
+   .Categories{
+       padding: 5px;
+   }
+   .Categories h3{
+       margin-left: 37px;
+   }
+   .Links{
+       padding: 5px;
+
+   }
+   .Links h3{
+       margin-left: 37px;
+   }
+   .Contact{
+       padding: 5px;
+   }
+   .Contact h3{
+       margin-left: 37px;
+   }
+   .sec-3 ul li{
+       display:inline-block;
+       justify-content: center;
+       padding: 20px;
+       margin-right: 20px;
+       background-color: grey;
+       border-radius: 50%;
+       
+   }
+   
+   }
+
+</style>
+<body>
+    <section class="head">
+        <h1><span style="color:darkblue;">Responsive</span> <span style="color: crimson;">Footer</span></h1>
+    </section>
+    <footer>
+      
+        <section class="sec-1">
+            <section class="about">
+                <h3 style="color: white;">ABOUT</h3>
+                <p>Betalabs.in is an initiative to help the upcoming programmers with the code. Beta-labs focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages like C,C++,Java,HTML,CSS etc.</p>
+            </section>
+        
+        <section class="Categories">
+            <h3 style="color: white;">CATEGORIES</h3>
+            <ul>
+                <li>
+                    <a href="#">C</a>
+                </li>
+                <li>
+                    <a href="#">UI Desing</a>
+                </li>
+                <li>
+                    <a href="#">PHP</a>
+                </li>
+                <li>
+                    <a href="#">Java</a>
+                </li>
+                <li>
+                    <a href="#">Android</a>
+                </li>
+                <li>
+                    <a href="#">Hybrid Apps</a>
+                </li>
+            </ul>
+        </section>
+        <section class="Links">
+            <h3 style="color:white;">QUICK LINKS</h3>
+            <ul>
+                <li><a href="#" >About Us</a></li>
+                <li><a href="#" >Contact Us</a></li>
+                <li><a href="#" >Contribute</a></li>
+                <li><a href="#" >Privacy Policy</a></li>
+                <li><a href="#" >SiteMap</a></li>
+                <li><a href="#" >Disclaimer</a></li>
+            </ul>
+        </section>
+        <section class="Contact">
+            <h3 style="color:white;">CONTACT US</h3>
+            <ul>
+                <li><i class="fa fa-home"></i>SCO-75 Chandigarh, India</li>
+                <li><i class="fa fa-envelope"></i>lifeis@gmail.com</li>
+                <li><i class="fa fa-phone "></i>Mobile no:9876543210</li>
+                <li><i class="fa fa-facebook-official"> </i>betalabsindia</li>
+                
+            </ul>
+        </section>
+        </section>
+        
+        <section class="sec-2">
+            <p>Register for free <a href="#" >Sign Up!</a></p>
+        </section>
+        <section class="sec-3">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-google fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+            </ul>
+        </section>
+        <section class="sec-4"> 
+            <p>Copyright @ 2020 All Rights Reserved by Beta-Labs.</p>
+        </section>
+    </footer>
+    
+</body>
+</html>
