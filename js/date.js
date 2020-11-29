@@ -25,7 +25,7 @@ day1.innerHTML=`${date}`;
 setTimeout(showtime,1000);
 }
 function addZero(n){
-    return(parseInt(n,10)<10?'0':" ")+n;
+    return(parseInt(n,10)<10?'0':"")+n;
 }
 
 function setGreeting(){

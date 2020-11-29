@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Indie Flower', cursive;
+    background-color: skyblue;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container{
+    background-color: whitesmoke;
+    width: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.header{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 8px;
+    
+}
+.header h2{
+    color: black;
+}
+.form{
+    padding: 20px 30px;
+}
+.form-control{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.form-control label{
+    display: block;
+    padding: 3px;
+    font-size: 20px;
+}
+.form-control input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #685e5ef0;
+    outline: none;
+}
+.form-control i{
+    position: absolute;
+    right:  10px;
+    top: 46px;
+    visibility: hidden;
+
+}
+.form-control small{
+    position: absolute;
+    left:0px;
+    visibility: hidden;
+    margin-top: 5px;
+
+}
+button{
+    width: 100%;
+    background-color: coral;
+    color: black;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+    box-shadow: 10px 5px 5px rgb(221, 214, 213);
+}
+
+.form-control.success input{
+    border-color: rgb(41, 206, 41);
+}
+
+.form-control.error input{
+    border-color: red;
+}
+
+.form-control.success .fa-check-circle{
+    visibility: visible;
+    color: rgb(41, 206, 41);
+}
+
+.form-control.error .fa-exclamation-circle{
+    visibility: visible;
+    color: red;
+
+}
+
+.form-control.error small{
+    visibility: visible;
+    color: red;
+}
